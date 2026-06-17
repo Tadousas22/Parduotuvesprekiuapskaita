@@ -1,0 +1,2 @@
+# Parduotuvesprekiuapskaita
+Projektinis darbas 
