@@ -1,2 +1,9 @@
-# Parduotuvesprekiuapskaita
-Projektinis darbas 
+Šio projekto tikslas – sukurti C++ konsolinę programą, kuri leidžia valdyti parduotuvės prekių duomenis, taikant struktūrinio programavimo principus, darbą su failais ir CRUD operacijas. Programa skirta patogiai saugoti, peržiūrėti, redaguoti ir šalinti prekių įrašus, taip pat suteikia galimybę atlikti papildomus veiksmus, tokius kaip paieška, rikiavimas ir statistikos skaičiavimas.
+Programoje įgyvendintos visos pagrindinės CRUD operacijos: vartotojas gali sukurti naują įrašą įvesdamas prekės duomenis, peržiūrėti visas esamas prekes lentelės formatu, redaguoti pasirinktą prekę pagal jos ID bei ištrinti nereikalingą įrašą. Taip užtikrinamas pilnas duomenų valdymas.
+
+Be pagrindinių funkcijų, programa turi papildomas galimybes: vartotojas gali ieškoti prekių pagal pavadinimą, įvesdamas norimą tekstą, o sistema pateikia visus atitinkančius rezultatus. Taip pat galima rikiuoti prekes pagal kainą didėjančia arba mažėjančia tvarka bei apskaičiuoti bendrą sandėlio vertę, kas leidžia geriau analizuoti turimus duomenis.
+Duomenys saugomi tekstiniame faile „prekes.txt“, kuris naudoja struktūruotą formatą su „;“ skyrikliu. Programa paleidimo metu nuskaito visus duomenis naudojant ifstream, o atlikus pakeitimus jie išsaugomi atgal į failą naudojant ofstream. Tai leidžia išlaikyti duomenis tarp programos paleidimų.
+
+Programos realizacijoje naudojamos pagrindinės C++ programavimo konstrukcijos: kintamieji ir duomenų tipai (int, double, string), sąlyginiai sakiniai (if, else, switch), ciklai (for, while), funkcijos bei vartotojo sukurta struktūra struct Preke. Duomenų saugojimui panaudotas vector<Preke>, kuris leidžia patogiai valdyti dinaminį įrašų sąrašą. Duomenų apdorojimui naudojami stringstream bei standartinės bibliotekos algoritmai, pavyzdžiui, rikiavimui.
+
+Projektas pilnai įgyvendina visus keliamus reikalavimus: realizuotos CRUD operacijos, pridėtos papildomos duomenų apdorojimo funkcijos, naudojamas darbas su failais bei aiški meniu pagrindu veikianti vartotojo sąsaja. Programos struktūra yra suskaidyta į atskiras funkcijas, todėl kodas yra tvarkingas ir lengvai suprantamas. Studentas gali paaiškinti, kaip vyksta failų nuskaitymas ir įrašymas, kaip realizuotos CRUD operacijos, kaip veikia paieška ir rikiavimas bei kodėl pasirinkta naudoti struktūrą ir vektorių duomenims saugoti.
