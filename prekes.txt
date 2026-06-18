@@ -13,4 +13,4 @@
 13;Sūris;4;22
 14;Jogurtas;1.1;27
 15;Šokoladas;1.6;33
-10;Makaronai;1.8;2
+
